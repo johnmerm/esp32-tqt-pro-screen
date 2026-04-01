@@ -1,0 +1,15 @@
+[env:t-qt-pro]
+platform = espressif32@^6.9.0
+board = esp32-s3-devkitc-1
+framework = arduino
+monitor_speed = 115200
+upload_speed = 921600
+
+build_flags =
+    -DARDUINO_USB_MODE=1
+    -DARDUINO_USB_CDC_ON_BOOT=1
+
+lib_deps =
+    lovyan03/LovyanGFX@^1.1.16
+    mathieucarbou/ESPAsyncWebServer@^3.6.0
+    mathieucarbou/AsyncTCP@^3.3.2

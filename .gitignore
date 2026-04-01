@@ -1,0 +1,5 @@
+/.claude/
+/.pio/
+/mcp-server/dist/
+/mcp-server/node_modules/
+/wifi_credentials.h
